@@ -1,0 +1,36 @@
+body{
+  font-family: Poppins;
+}
+nav{
+  padding: 20px;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  width: 100px;
+}
+
+.heroImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.heroImage > img{
+  width: 50vw;
+}
+
+.textHero{
+  padding-left: 50px;
+}
+.textHero > h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+.textHero > p{
+  width: 40vw;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222222;
+}
