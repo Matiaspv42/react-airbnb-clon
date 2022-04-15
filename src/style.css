@@ -1,3 +1,7 @@
+*{
+  /* border: 1px red solid; */
+}
+
 body{
   font-family: Poppins;
 }
@@ -33,4 +37,32 @@ nav{
   font-size: 16px;
   font-weight: 300;
   color: #222222;
+}
+
+.card > img{
+  border-radius: 15px;
+  width: 300px;
+}
+.card{
+  color: #222222;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.bodyCard > p{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  
+}
+.grayText{
+  color: #918E9B;
+}
+
+.boldText{
+  font-weight: 600;
 }
