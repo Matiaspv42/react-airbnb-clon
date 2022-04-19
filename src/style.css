@@ -39,6 +39,13 @@ nav{
   color: #222222;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
 .card > img{
   border-radius: 15px;
   width: 300px;
@@ -51,7 +58,28 @@ nav{
   align-items: center;
   margin-top: 50px;
   margin-left: 50px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
+  position: relative;
 }
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
 
 .bodyCard > p{
   display: flex;

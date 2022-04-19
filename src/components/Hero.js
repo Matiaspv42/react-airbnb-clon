@@ -1,11 +1,11 @@
 import React from "react";
-import heroImage from '../images/photo-grid.png'
+
 
 export default function Hero(){
     return(
         <div className="Hero">
             <div className="heroImage">
-                <img src={heroImage} alt="" />
+                <img src={'/images/photo-grid.png'} alt="" />
             </div>
             <div className="textHero">
                 <h1>Online Experiences</h1>
